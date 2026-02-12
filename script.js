@@ -6,7 +6,7 @@ let image = document.querySelector("#image img");
 let imageinput = document.querySelector("#image input");
 
 // Backend API URL
-const Api_url = "http://localhost:5000/chat";
+const Api_url = "/api/chat";
 
 // User object
 let user = {
@@ -129,3 +129,4 @@ imageinput.addEventListener("change", () => {
 imagebtn.addEventListener("click", () => {
     imagebtn.querySelector("input").click();
 });
+
